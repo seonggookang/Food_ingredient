@@ -1,0 +1,22 @@
+/* recipe에만 적용되는 css. 다른거에는 영향을 미치지 않는다. */
+/* 그냥 Recipe 컴포넌트에 대한 css만들어서 적용시키면 될것을 왜 굳이 이러지 */
+
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(66, 66, 66);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 40%;
+  background-color: white;
+}
+
+.recipe li {
+  text-align: left;
+}
+
+.title {
+  font-size: 30px;
+}
