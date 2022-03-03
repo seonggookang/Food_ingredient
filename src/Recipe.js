@@ -6,8 +6,8 @@ function Recipe({ img, calories, title, ingredients }) {
     <div className={style.recipe}>
       <div className={style.title}>{title}</div>
       <ul>
-        {ingredients.map((ingredient) => (
-          <li>{ingredient.text}</li>
+        {ingredients.map((ingredient, idx) => (
+          <li key={idx}>{ingredient.text}</li>
         ))}
       </ul>
       <div>{calories}</div>
